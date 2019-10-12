@@ -2,7 +2,8 @@ body {
     background-color: grey;
 }
 
-title {
+.title {
     background-color: blue;
     font-size: 48px;
+    text-align: center;
 }
