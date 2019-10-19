@@ -19,6 +19,11 @@ body {
     background-color: greenyellow;
 }
 
- .btn {
-     padding: 20;
+container {
+    text-align: center;
+}
+
+button {
+     position: absolute;
+     left: 50%;
  }
