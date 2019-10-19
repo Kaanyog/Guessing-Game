@@ -1,9 +1,1 @@
-
-
-
-
-
-
-var btn = document.createElement("BUTTON");   // Create a <button> element
-btn.innerHTML = "START";                   // Insert text
-document.body.appendChild(btn);               // Append <button> to <body>
+// This is the code for our gameplay and how it operates
