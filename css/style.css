@@ -19,11 +19,14 @@ body {
     background-color: greenyellow;
 }
 
-container {
+.container {
     text-align: center;
 }
 
 button {
-     position: absolute;
-     left: 50%;
- }
+     /* position: absolute; */
+     /* left: 50%; */
+     font-size: 60px;
+     width: 150px;
+     height: 70px;
+}
