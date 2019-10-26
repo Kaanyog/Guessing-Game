@@ -9,6 +9,8 @@
     <!-- lets import our cascading style sheet -->
     <link rel="stylesheet" href="./css/style.css">
 
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
 </head>
 <body>
 
@@ -24,16 +26,17 @@
         </div>
     </div>
 
-    <div class="container">
+    <button type="button" id="change-color">Go</button>
+    
+    <div id="box" class='color-div' data-color='red'>Hey there red</div>
+    <div id="box1" class='color-div' data-color='green'>Hey there green</div>
+    <div id="box2" class='color-div' data-color='blue'>Hey there blue</div>
 
-        <button class="button">Start</button>
-
-    </div>
 
     <!-- Nothing goes after this line except scripts -->
 
     <!-- lets import our javascript code to do our gameplay mechanics etc -->
     <script type="text/javascript" src="./js/game.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    
 </body>
 </html>
