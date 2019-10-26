@@ -30,3 +30,7 @@ button {
      width: 150px;
      height: 70px;
 }
+
+#box, #box1, #box2{
+    width: 100px;
+}
